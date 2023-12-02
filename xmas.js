@@ -50,6 +50,7 @@ module.exports = () => {
 
 `
   );
+  console.log(`${new Date().toTimeString().substr(0, 8)} - Generated files for day ${num}dec`);
 }
 
 function _0(num) {
